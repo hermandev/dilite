@@ -18,7 +18,7 @@ npm install @hermandev/dilite
 Example:
 
 ```typescript
-import { Injectable } from "@hermandev/dilite";
+import { Injectable, getInjection } from "@hermandev/dilite";
 
 @Injectable({ token: "FooService" })
 class FooService {
