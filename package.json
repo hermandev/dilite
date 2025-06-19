@@ -1,0 +1,34 @@
+{
+  "name": "@hermandev/dilite",
+  "version": "v0.0.5",
+  "description": "Simple and lightweight Dependency Injection container for TypeScript / Next.js apps",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermandev/dilite.git"
+  },
+  "author": "hermandev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hermandev/dilite/issues"
+  },
+  "homepage": "https://github.com/hermandev/dilite#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dependency-injection",
+    "typescript",
+    "nextjs",
+    "di-container"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
