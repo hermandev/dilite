@@ -1,6 +1,6 @@
 {
   "name": "@hermandev/dilite",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple and lightweight Dependency Injection container for TypeScript / Next.js apps",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
